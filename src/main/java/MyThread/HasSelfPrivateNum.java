@@ -5,9 +5,9 @@ package MyThread;
  * @date 2022/6/14 9:26 上午
  */
 public class HasSelfPrivateNum {
+    private int num=0;
     public void addl(String username){
         try {
-            int num=0;
             if (username.equals("a")){
                 num=100;
                 System.out.println("a set over");
