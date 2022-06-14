@@ -6,7 +6,7 @@ package MyThread;
  */
 public class HasSelfPrivateNum {
     private int num=0;
-    public void addl(String username){
+    synchronized public void addl(String username){
         try {
             if (username.equals("a")){
                 num=100;
