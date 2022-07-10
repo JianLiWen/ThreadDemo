@@ -1,4 +1,4 @@
-package ThreadLocal.dateTest2;
+package ThreadLocal.inheritableThreadLocal;
 
 /**
  * @author wenjianli
@@ -8,10 +8,11 @@ public class ThreadA extends Thread{
     @Override
     public void run() {
         try{
-            for(int i=0;i<10;i++){
-                System.out.println("ThreadA getValue=" + Tools.t1.get());
-                Thread.sleep(100);
-            }
+            System.out.println("ThreadA getValue=" + Tools.t1.get());
+
+            Thread.sleep(100);
+//            for(int i=0;i<10;i++){
+//            }
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

@@ -1,6 +1,4 @@
-package ThreadLocal.dateTest2;
-
-import ThreadLocal.dateTest.ThreadLocalExt;
+package ThreadLocal.inheritableThreadLocal;
 
 /**
  * @author wenjianli
